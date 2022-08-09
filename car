@@ -1,0 +1,15 @@
+    local args = {
+    [1] = "Dort Charger Hellcat R/T",
+    [2] = 55000,
+    [3] = "86,36,36",
+    [4] = "0,0,0",
+    [5] = "17,17,17",
+    [6] = "0,0,0",
+    [7] = "117,0,0",
+    [8] = "0,0,0",
+    [9] = "0,0,0",
+    [10] = "0,0,0",
+    [11] = "0,0,0"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Dealership.DealershipHandler:InvokeServer(unpack(args))
