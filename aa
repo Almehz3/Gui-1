@@ -1,0 +1,17 @@
+    local args = {
+    [1] = {
+        ["CurrentCar"] = "Dort Charger Hellcat R/T",
+        ["isMobile"] = true,
+        ["Handling"] = "Track",
+        ["Nitrous"] = "Track",
+        ["Horsepower"] = "Drag",
+        ["DriveTrain"] = "AWD",
+        ["Transmission"] = "Track",
+        ["Turbo"] = "Twin Turbo",
+        ["Suspension"] = "Lowered2",
+        ["BrakeForce"] = "Track",
+        ["Grip"] = "Track"
+    }
+}
+
+game:GetService("ReplicatedStorage").Remotes.CustomizationShop.CustomSaveStatsRemoteEvent:FireServer(unpack(args))
