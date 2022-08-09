@@ -1,0 +1,7 @@
+
+local args = {
+    [1] = "Dort Charger Hellcat R/T",
+    [2] = "Sell"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CarRemote2:FireServer(unpack(args))
